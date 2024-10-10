@@ -1,5 +1,9 @@
+import Square from "./components/counter/square/square";
+
 const App = () =>  {
-  return <h1>REACT</h1>;
+  return <div>
+    <Square />
+  </div>;
 }
 
 export default App;
